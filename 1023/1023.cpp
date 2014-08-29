@@ -11,5 +11,12 @@
 using namespace std;
 
 int main(){
-    
+    double total;
+    for(int i; i<12;i++){
+        double n;
+        cin >> n;
+        total += n;
+    }
+    cout << "$" << total/12;
+    cout <<endl;
 }
